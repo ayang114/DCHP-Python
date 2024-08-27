@@ -1,8 +1,9 @@
 # DHCP (Dynamic Host Configuration Protocol)
 
 A Python DHCP server that automatically assigns IP addresses and network settings to clients via discover -> offer -> request -> ack.
+<br>
 <img width="1512" alt="Screenshot 2023-12-15 at 5 31 34 PM" src="https://github.com/ayang114/PythonDCHP/assets/102551386/5b6540e7-0bfe-4a7b-a4f1-6f87e71753f4">
-
+<br>
 ## Getting Started
 
 <b>Setting Up and Running Guide</b>
@@ -26,16 +27,19 @@ python3 dhserver.py
 <br>
 
 -> Run mytopo0-1 for a <b>single</b> client
+<br>
 First Run:
 ```bash
 client dhclient -r
 ```
+<br>
 Then run:
 ```bash
 client dhclient -4 -v client-eth0
 ```
 
 -> Run mytopo1-1 for <b>multiple</b> client
+<br>
 First Run:
 ```bash
 client0 dhclient -r
@@ -43,6 +47,7 @@ client1 dhclient -r
 client2 dhclient -r
 client3 dhclient -r
 ```
+<br>
 Then run:
 ```bash
 client0 dhclient -4 -v client0-eth0
