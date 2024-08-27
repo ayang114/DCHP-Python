@@ -27,7 +27,9 @@ python3 dhserver.py
 <br>
 <br>
 
--> Run mytopo0-1 for a <b>single</b> client
+Step 2: Choose to have a single or multiple clients
+<br>
+-> Run mytopo0-1 for <b>single client</br>
 <br>
 First Run:
 ```bash
@@ -39,9 +41,10 @@ client dhclient -4 -v client-eth0
 ```
 <br>
 <br>
--> Run mytopo1-1 for <b>multiple</b> client
+-> Run mytopo1-1 for <b>multiple client</b>
 <br>
 First Run:
+
 ```bash
 client0 dhclient -r
 client1 dhclient -r
