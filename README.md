@@ -33,12 +33,12 @@ First Run:
 ```bash
 client dhclient -r
 ```
-<br>
 Then run:
 ```bash
 client dhclient -4 -v client-eth0
 ```
-
+<br>
+<br>
 -> Run mytopo1-1 for <b>multiple</b> client
 <br>
 First Run:
@@ -48,7 +48,6 @@ client1 dhclient -r
 client2 dhclient -r
 client3 dhclient -r
 ```
-<br>
 Then run:
 ```bash
 client0 dhclient -4 -v client0-eth0
